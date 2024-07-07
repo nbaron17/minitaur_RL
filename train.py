@@ -23,7 +23,6 @@ def train(env):
     iters = 0
     while True:
         iters += 1
-
         model.learn(total_timesteps=TIMESTEPS, reset_num_timesteps=False)
         model.save(f"{model_dir}/PPO_{TIMESTEPS*iters}")
 
