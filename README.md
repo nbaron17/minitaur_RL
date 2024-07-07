@@ -22,3 +22,15 @@ https://github.com/tensorflow/tensorboard/issues/6874
 To train a model, run:
 
     python train.py
+
+To enjoy a pretrained model, run:
+
+    python test.py
+
+To record a video, run:
+
+    python record_video.py
+
+Additionally one line must be added at the top of the render() method declaration in
+venv/lib/python3.10/site-packages/pybullet_envs/bullet/minitaur_gym_env.py (line 272), add 'mode = "rgb_array"' 
+at the top of the method declaration.
