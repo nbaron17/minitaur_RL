@@ -3,5 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="$PROJECT_DIR$/../RL Tests/panda_mujoco_gym/.conda" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="minotaur_RL" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (Projects2)" project-jdk-type="Python SDK" />
 </project>
