@@ -1,6 +1,8 @@
 # Minitaur RL via Stable Baselines 3
 Train minitaur quadruped to walk via RL using stable baselines 3. PPO is the pretrained model here.
 
+![](https://github.com/nbaron17/minitaur_RL/blob/test/trained_dog.gif)
+
 ## Installation
 Run:
 
