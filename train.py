@@ -19,7 +19,6 @@ os.makedirs(log_dir, exist_ok=True)
 def train(env):
     model = PPO('MlpPolicy', env, verbose=1, device='cuda', tensorboard_log=log_dir)
     # model = PPO.load('models/PPO_5700000.zip', env=env, device='cuda', tensorboard_log=log_dir)
-
     TIMESTEPS = 50000
     iters = 0
     while True:
